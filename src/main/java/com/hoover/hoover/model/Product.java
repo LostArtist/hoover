@@ -25,7 +25,7 @@ public class Product {
     private int inventory;
     private String description;
 
-    @ManyToOne(cascade = CascadeType.ALL) //
+    @ManyToOne(cascade = CascadeType.ALL)
     private Category category; // has a category
 
     @OneToMany(mappedBy = "product", cascade = CascadeType.ALL, orphanRemoval = true)
