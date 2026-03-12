@@ -1,4 +1,4 @@
-package com.hoover.hoover.model;
+package com.hoover.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

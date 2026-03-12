@@ -1,4 +1,4 @@
-package com.hoover.hoover;
+package com.hoover;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
